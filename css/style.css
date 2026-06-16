@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+header{
+    background:#1e3a8a;
+    color:white;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-right:20px;
+}
+
+.hero{
+    text-align:center;
+    padding:50px;
+}
+
+.cars{
+    display:flex;
+    gap:20px;
+    padding:20px;
+}
+
+.car-card{
+    border:1px solid #ddd;
+    padding:15px;
+    width:250px;
+    text-align:center;
+}
+
+.car-card img{
+    width:100%;
+}
+
+.dashboard{
+    display:flex;
+    gap:20px;
+    padding:20px;
+}
+
+.card{
+    background:#f4f4f4;
+    padding:20px;
+    width:200px;
+    text-align:center;
+}
