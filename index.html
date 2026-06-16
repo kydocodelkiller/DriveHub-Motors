@@ -8,52 +8,55 @@
 </head>
 <body>
 
-    <header>
-        <h1>DriveHub Motors</h1>
+    <div class="app-layout">
 
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="calculator.html">Duty Calculator</a>
-            <a href="tracker.html">Port Tracker</a>
-            <a href="dashboard.html">Dashboard</a>
-        </nav>
-    </header>
+        <aside class="sidebar">
+            <div class="sidebar-brand">
+                <h1>DriveHub</h1>
+                <p>Motors</p>
+            </div>
 
-    <section class="hero">
+            <nav class="sidebar-nav">
+                <a href="index.html" class="active">Home</a>
+                <a href="calculator.html">Duty Calculator</a>
+                <a href="tracker.html">Port Tracker</a>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="#">Settings</a>
+                <a href="#">Help</a>
+            </nav>
 
-        <h2>Find Your Dream Car</h2>
+            <div class="login-panel">
+                <h2>Login</h2>
+                <input type="email" id="login-email" placeholder="Email address">
+                <input type="password" id="login-password" placeholder="Password">
+                <button type="button">Login</button>
+            </div>
+        </aside>
 
-        <p>Import, Finance and Track Vehicles Easily</p>
+        <main class="main-content">
+            <header class="page-header">
+                <h2>Find Your Dream Car</h2>
+                <p>Import, finance and track vehicles easily with DriveHub Motors.</p>
+            </header>
 
-    </section>
+            <section class="cars">
+                <div class="car-card">
+                    <img src="images/car1.jpg" alt="Toyota Harrier">
+                    <h3>Toyota Harrier</h3>
+                    <p>KES 2,500,000</p>
+                    <button>View Details</button>
+                </div>
 
-    <section class="cars">
+                <div class="car-card">
+                    <img src="images/car2.jpg" alt="Mazda CX5">
+                    <h3>Mazda CX5</h3>
+                    <p>KES 2,200,000</p>
+                    <button>View Details</button>
+                </div>
+            </section>
+        </main>
 
-        <div class="car-card">
-
-            <img src="images/car1.jpg" alt="Toyota Harrier">
-
-            <h3>Toyota Harrier</h3>
-
-            <p>KES 2,500,000</p>
-
-            <button>View Details</button>
-
-        </div>
-
-        <div class="car-card">
-
-            <img src="images/car2.jpg" alt="Mazda CX5">
-
-            <h3>Mazda CX5</h3>
-
-            <p>KES 2,200,000</p>
-
-            <button>View Details</button>
-
-        </div>
-
-    </section>
+    </div>
 
     <script src="js/script.js"></script>
 

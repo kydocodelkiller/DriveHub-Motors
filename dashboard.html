@@ -9,24 +9,54 @@
 </head>
 <body>
 
-    <h1>Dealer Dashboard</h1>
+    <div class="app-layout">
 
-    <div class="dashboard">
+        <aside class="sidebar">
+            <div class="sidebar-brand">
+                <h1>DriveHub</h1>
+                <p>Motors</p>
+            </div>
 
-        <div class="card">
-            <h2>120</h2>
-            <p>Total Cars</p>
-        </div>
+            <nav class="sidebar-nav">
+                <a href="index.html">Home</a>
+                <a href="calculator.html">Duty Calculator</a>
+                <a href="tracker.html">Port Tracker</a>
+                <a href="dashboard.html" class="active">Dashboard</a>
+                <a href="#">Settings</a>
+                <a href="#">Help</a>
+            </nav>
 
-        <div class="card">
-            <h2>35</h2>
-            <p>Cars in Transit</p>
-        </div>
+            <div class="login-panel">
+                <h2>Login</h2>
+                <input type="email" id="login-email" placeholder="Email address">
+                <input type="password" id="login-password" placeholder="Password">
+                <button type="button">Login</button>
+            </div>
+        </aside>
 
-        <div class="card">
-            <h2>KES 5M</h2>
-            <p>Monthly Sales</p>
-        </div>
+        <main class="main-content">
+            <header class="page-header">
+                <h2>Dealer Dashboard</h2>
+                <p>Quick overview of inventory, transit, and sales performance.</p>
+            </header>
+
+            <section class="dashboard">
+                <div class="card">
+                    <h2>120</h2>
+                    <p>Total Cars</p>
+                </div>
+
+                <div class="card">
+                    <h2>35</h2>
+                    <p>Cars in Transit</p>
+                </div>
+
+                <div class="card">
+                    <h2>KES 5M</h2>
+                    <p>Monthly Sales</p>
+                </div>
+            </section>
+        </main>
 
     </div>
 

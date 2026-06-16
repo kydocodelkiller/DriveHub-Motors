@@ -9,23 +9,50 @@
 </head>
 <body>
 
-    <h1>Vehicle Tracking</h1>
+    <div class="app-layout">
 
-    <ul>
+        <aside class="sidebar">
+            <div class="sidebar-brand">
+                <h1>DriveHub</h1>
+                <p>Motors</p>
+            </div>
 
-        <li>Booked in Japan</li>
+            <nav class="sidebar-nav">
+                <a href="index.html">Home</a>
+                <a href="calculator.html">Duty Calculator</a>
+                <a href="tracker.html" class="active">Port Tracker</a>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="#">Settings</a>
+                <a href="#">Help</a>
+            </nav>
 
-        <li>Loaded on Ship</li>
+            <div class="login-panel">
+                <h2>Login</h2>
+                <input type="email" id="login-email" placeholder="Email address">
+                <input type="password" id="login-password" placeholder="Password">
+                <button type="button">Login</button>
+            </div>
+        </aside>
 
-        <li>At Sea</li>
+        <main class="main-content">
+            <header class="page-header">
+                <h2>Vehicle Tracking</h2>
+                <p>See the latest stage of your shipment in the import process.</p>
+            </header>
 
-        <li>Arrived Mombasa</li>
+            <section class="tracker-card">
+                <ul>
+                    <li>Booked in Japan</li>
+                    <li>Loaded on Ship</li>
+                    <li>At Sea</li>
+                    <li>Arrived Mombasa</li>
+                    <li>Cleared by KRA</li>
+                    <li>Ready for Collection</li>
+                </ul>
+            </section>
+        </main>
 
-        <li>Cleared by KRA</li>
-
-        <li>Ready for Collection</li>
-
-    </ul>
+    </div>
 
 </body>
 </html>

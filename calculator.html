@@ -9,15 +9,45 @@
 </head>
 <body>
 
-    <h1>KRA Duty Calculator</h1>
+    <div class="app-layout">
 
-    <input type="number" id="crsp" placeholder="Enter CRSP Value">
+        <aside class="sidebar">
+            <div class="sidebar-brand">
+                <h1>DriveHub</h1>
+                <p>Motors</p>
+            </div>
 
-    <button onclick="calculateDuty()">
-        Calculate
-    </button>
+            <nav class="sidebar-nav">
+                <a href="index.html">Home</a>
+                <a href="calculator.html" class="active">Duty Calculator</a>
+                <a href="tracker.html">Port Tracker</a>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="#">Settings</a>
+                <a href="#">Help</a>
+            </nav>
 
-    <h2 id="result"></h2>
+            <div class="login-panel">
+                <h2>Login</h2>
+                <input type="email" id="login-email" placeholder="Email address">
+                <input type="password" id="login-password" placeholder="Password">
+                <button type="button">Login</button>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="page-header">
+                <h2>KRA Duty Calculator</h2>
+                <p>Enter the CRSP value to estimate the duty amount.</p>
+            </header>
+
+            <section class="calculator-card">
+                <input type="number" id="crsp" placeholder="Enter CRSP Value">
+                <button onclick="calculateDuty()">Calculate</button>
+                <h2 id="result"></h2>
+            </section>
+        </main>
+
+    </div>
 
     <script src="js/script.js"></script>
 
